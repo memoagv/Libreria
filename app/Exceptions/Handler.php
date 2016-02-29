@@ -45,7 +45,10 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
-       
-        return parent::render($request, $e);
+       if ($e-> getStatusCode()==404) {
+         return response("Ocurrio un error");
+        
+        }
+       // return parent::render($request, $e);
     }
 }
