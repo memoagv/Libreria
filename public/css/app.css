@@ -1,0 +1,57 @@
+
+#i-carro,#i-libro,#i2-carro,#t-libreria,#i-menu,#i-bolsa,#i-infor,#i-user,#i-login{
+	padding-left: 8px;
+}
+
+
+
+/*
+selectores css3 
+clase--->    .
+id------>    #
+etiquetas-> nombre de etiqueta
+
+
+el padding es del elemento hacia abajo
+y el margin del elemento hacia arriba
+p{
+	border: 1px solid;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+*/
+#slider-libreria,#section2{
+	margin-top: 30px;
+}
+.slider .indicators .indicator-item {
+  background-color:#ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #5d4037;
+}
+.slider {
+  width: 900px;
+  margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+#p1,#p2,#p3{
+	text-align: justify;
+}
+
+.btn-social{
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+
+
+
+ 
